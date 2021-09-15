@@ -5,6 +5,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+ },
   "scripts": {
     "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
