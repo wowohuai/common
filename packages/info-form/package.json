@@ -1,8 +1,10 @@
 {
   "name": "@ashuai/info-form",
+  "private": true,
   "version": "1.0.1",
   "description": "> TODO: description",
   "author": "zhangxiang <502123065@qq.com>",
   "license": "MIT",
-  "main": "index.js"
+  "main": "index.js",
+  "gitHead": "e871c2df08864bfc37cca27c13c22aa9709150e9"
 }
