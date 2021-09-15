@@ -18,11 +18,10 @@ module.exports = {
   configureWebpack() {
     return {
       entry: {
-        app: './examples/main.js'
+        app: './src/main.js'
       },
       resolve: {
         alias: {
-          examples: path.join(__dirname, 'examples'),
           packages: path.join(__dirname, 'packages'),
           '@': path.join(__dirname, 'src')
         }
